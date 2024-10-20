@@ -30,6 +30,7 @@ namespace ejercicio1Guia4
         private void InitializeComponent()
         {
             this.btnIngresarDato = new System.Windows.Forms.Button();
+            this.btnSalir = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnIngresarDato
@@ -44,12 +45,25 @@ namespace ejercicio1Guia4
             this.btnIngresarDato.UseVisualStyleBackColor = false;
             this.btnIngresarDato.Click += new System.EventHandler(this.btnIngresarDato_Click);
             // 
+            // btnSalir
+            // 
+            this.btnSalir.BackColor = System.Drawing.Color.Thistle;
+            this.btnSalir.ForeColor = System.Drawing.Color.DeepPink;
+            this.btnSalir.Location = new System.Drawing.Point(113, 134);
+            this.btnSalir.Name = "btnSalir";
+            this.btnSalir.Size = new System.Drawing.Size(109, 44);
+            this.btnSalir.TabIndex = 1;
+            this.btnSalir.Text = "Salir";
+            this.btnSalir.UseVisualStyleBackColor = false;
+            this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DarkOrchid;
-            this.ClientSize = new System.Drawing.Size(356, 205);
+            this.ClientSize = new System.Drawing.Size(369, 236);
+            this.Controls.Add(this.btnSalir);
             this.Controls.Add(this.btnIngresarDato);
             this.Name = "Form1";
             this.Text = "Form1";
@@ -60,6 +74,7 @@ namespace ejercicio1Guia4
         #endregion
 
         private System.Windows.Forms.Button btnIngresarDato;
+        private System.Windows.Forms.Button btnSalir;
     }
 }
 
