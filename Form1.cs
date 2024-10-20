@@ -16,5 +16,10 @@ namespace ejercicio1Guia4
         {
             InitializeComponent();
         }
+
+        private void btnIngresarDato_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
