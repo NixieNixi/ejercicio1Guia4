@@ -19,7 +19,14 @@ namespace ejercicio1Guia4
 
         private void btnIngresarDato_Click(object sender, EventArgs e)
         {
+            try
+            {
 
+            }
+            catch(Exception)
+            {
+
+            }
         }
     }
 }
